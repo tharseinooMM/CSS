@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* horizontal ထိန်း | justify-content ကိုသုံးတယ်*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: red;
+            height: 500px;
+            /* Ui မပျက်အောင်ထိန်းပေးတာက wrap */
+            /* direction နဲ့ wrap ပေါင်းရေးတာက flow */
+            flex-flow: row wrap;
+        }
+
+        .para{
+            text-align: center;
+            padding-top: 30px;
+            width: 70px;
+            height: 50px;
+            background-color: aquamarine;
+            margin: 10px;
+        }
+
+        .container1{
+            /* ventrical ထိန်း | align-itemsကိုသုံးတယ်*/
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color:blanchedalmond;
+            width: 500px;
+            height: 600px;
+        }
+
+        .para1{
+            text-align: center;
+            padding-top: 30px;
+            width: 70px;
+            height: 50px;
+            background-color: aquamarine;
+            margin: 10px;
+        }
+
+        .two{
+            align-self: start;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex-box</h1>
+    <div class="container">
+        <div class="para">one</div>
+        <div class="para">Two</div>
+        <div class="para">Three</div>
+        <div class="para">one</div>
+        <div class="para">Two</div>
+        <div class="para">Three</div>
+        <div class="para">one</div>
+        <div class="para">Two</div>
+        <div class="para">Three</div>
+    </div>
+
+    <div class="container1">
+        <div class="para1">one</div>
+        <div class="para1 two">two</div>
+        <div class="para1">three</div>
+    </div>
+</body>
+</html>

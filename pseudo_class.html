@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        .content{
+            background-color: white;
+            border-radius: 20px;
+            padding: 15px 20px;
+            margin: 100px;
+            margin-top: 150px;
+            width: 400px;
+            height: 350px;
+            text-align: center;
+            margin-left: 400px;
+            transform: 0.5s;
+        }
+        .content:hover{
+            background-color: black;
+            color: white;
+        }
+        .content:active{
+            background-color: brown;
+        }
+        .title{
+            text-align: center;
+            padding-top: 10px;
+        }
+        .btn{
+            background-color:bisque;
+            border-radius: 7px;
+            border: none;
+            padding: 10px 15px;
+        }
+        .text{
+            margin-bottom: 100px;
+            text-align: center;
+        }
+        .phNo{
+            border: none;
+            width: 300px;
+            height: 20px;
+            padding: 15px 20px;
+            border-radius: 15px;
+        }
+        .phNo:focus{
+            background-color: pink;
+        }
+        .before::before{
+            content: "HI ";
+        }
+        .before::after{
+            content: " what's up";
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="title">Hello Everyone!</div>
+        <p class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, illum? Aliquid, tempore, aspernatur culpa assumenda placeat veritatis neque rem rerum velit architecto cupiditate soluta repellendus facere eius quasi non officia. Molestiae, ducimus cum dicta, eos nostrum amet vitae eius esse minima vero cupiditate delectus. Illum nisi earum cum consequatur libero, maxime doloremque voluptates facere dolores tempora perspiciatis delectus laborum nostrum placeat animi voluptatem incidunt tenetur cupiditate, sit quisquam culpa dolor accusantium commodi totam. Voluptatem cupiditate eaque numquam! Cumque odio tenetur rem, animi corrupti corporis libero aut quo deserunt. Cupiditate autem quo dolores amet natus quisquam quos in obcaecati porro? In!
+        </p>
+        <button class="btn">Register</button>
+        <h1>sudo vs pseudo</h1>
+        <p>sudo => :</p><br>
+        <p>pesudo => ::</p><br>
+        <p>sudo ထဲမှာဆိုရင် :hover(mouse တင်),:focus(sulsor ချ), :active(clickတာ)</p><br>
+        <p>pesudo ထဲမှာဆိုရင် ::before ::after</p>
+        <p>focus vs active<br>
+        focus ကclickနှိပ်ရင် တောင်လျှောက်effect ဖြစ်နေမှာဖြစ်ပြီး active ကတစ်ချက်ဘဲ effect ဖြစ်မှာဖြစ်တယ်။</p>
+        <div class="text">
+            <input type="number" class="phNo">
+        </div>
+        <div>
+            <span class="before">Hello</span>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 10px;
+        }
+        .box-radius{
+            border-radius: 10px;
+        }
+        .box-border{
+            border-color: black;
+            border: 5px solid black;
+        }
+        .box-round{
+            border-radius: 50%;
+            border: 3px solid blue;
+        }
+        .box-background{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Resuable Class</h1>
+    <div class="box box-radius"></div>
+    <div class="box box-radius box-border"></div>
+    <div class="box box-radius box-border box-round"></div>
+    <div class="box box-radius box-border box-round box-background"></div>
+</body>
+</html>
