@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin : 0;
+            padding: 0;
+        }
+
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .table{
+            width: 80%;
+            text-align: center;
+            border-collapse: collapse;
+            border: 1px solid aquamarine;
+        }
+
+        .table tbody tr:nth-child(even){
+            background-color: #eeeeee;
+        }
+
+        .table tr:hover{
+            background-color: #eeeeee99;
+        }
+
+        .table thead{
+            background-color: aquamarine;
+        }
+
+        .table tr,
+        .table th,
+        .table td{
+            padding: 10px 15px;
+            /* border: 1px solid black; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Kyaw Kyaw</td>
+                    <td>khdfl;h@gmail.com</td>
+                    <td>2343245325</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Kyaw Kyaw</td>
+                    <td>khdfl;h@gmail.com</td>
+                    <td>2343245325</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Kyaw Kyaw</td>
+                    <td>khdfl;h@gmail.com</td>
+                    <td>2343245325</td>
+                </tr>
+            </tbody>
+    </table>
+
+    </div>
+</body>
+</html>
