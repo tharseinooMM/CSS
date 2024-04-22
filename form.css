@@ -1,5 +1,8 @@
 body{
     background-color: azure;
+    margin: 0;
+    padding: 0;
+
 }
 
 .form{
@@ -18,7 +21,6 @@ label{
 }
 
 .signUp{
-    text-align: center;
     padding: 10px 20px;
 }
 
@@ -32,6 +34,7 @@ label{
 
 .input-group{
     margin: 10px;
+
 }
 
 .button{
