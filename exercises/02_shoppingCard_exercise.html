@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+        }
+
+        .nav-bar{
+            color: white;
+            /* height: 40px; */
+            background-color: cadetblue;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .nav-bar .nav-bar-left{
+            margin-left: 10px;
+            padding: 10px 50px;
+            align-self: flex-start;
+        }
+
+        .nav-bar .nav-bar-right{
+            margin-right: 10px;
+            padding: 10px 20px;
+            align-self: flex-end;
+        }
+
+        .nav-bar .nav-bar-left span,
+        .nav-bar .nav-bar-right span{
+            margin: 20px;
+        }
+
+        .content{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            justify-content:space-evenly ;
+        }
+
+        .content .card{
+            background-color: rgb(230, 230, 230);
+            border-radius: 10px;
+            width: 200px;
+            height: 240px;
+        }
+
+        .card img{
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            /* position: absolute; */
+        }
+
+        .card .card-footer{
+            margin-top: 1px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .card-footer button{
+            padding: 7px 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: black;
+            color: white;
+        }
+
+        .card-footer i {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <div class="nav-bar-left">
+                <span>Home</span>
+                <span>About</span>
+                <span>Services</span>
+                <span>Blog</span>
+                <span>Contact</span>
+            </div>
+            <div class="nav-bar-right">
+                <span>Register</span>
+                <span>Login</span>
+            </div>
+        </div>
+        <div class="content">
+            <div class="card">
+                <div class="card-body">
+                    <img src="../images/Stan_Smith_Lux_Shoes_White_HP2201_HM1.avif">
+                </div>
+                <div class="card-footer">
+                    <button><i class="fa-solid fa-cart-shopping"></i>Buy</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <img src="../images/Stan_Smith_Lux_Shoes_White_HP2201_HM1.avif">
+                </div>
+                <div class="card-footer">
+                    <button><i class="fa-solid fa-cart-shopping"></i>Buy</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <img src="../images/Stan_Smith_Lux_Shoes_White_HP2201_HM1.avif">
+                </div>
+                <div class="card-footer">
+                    <button><i class="fa-solid fa-cart-shopping"></i>Buy</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <img src="../images/Stan_Smith_Lux_Shoes_White_HP2201_HM1.avif">
+                </div>
+                <div class="card-footer">
+                    <button><i class="fa-solid fa-cart-shopping"></i>Buy</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <img src="../images/Stan_Smith_Lux_Shoes_White_HP2201_HM1.avif">
+                </div>
+                <div class="card-footer">
+                    <button><i class="fa-solid fa-cart-shopping"></i>Buy</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <img src="../images/Stan_Smith_Lux_Shoes_White_HP2201_HM1.avif">
+                </div>
+                <div class="card-footer">
+                    <button><i class="fa-solid fa-cart-shopping"></i>Buy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
