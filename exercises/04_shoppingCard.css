@@ -43,8 +43,14 @@ body{
 }
 
 .content .card .card-body img{
+    filter: brightness(0.5);
+    transition: 1s;
     width: 100%;
     border-radius: 10px;
+}
+
+.content .card .card-body img:hover{
+    filter: brightness(1);
 }
 
 .card .card-footer{
