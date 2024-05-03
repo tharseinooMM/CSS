@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+         body{
+            width: 100%;
+            height: 1500px;
+         }
+
+        .container{
+            width: 100%;
+            height: 50vh;
+            background-color: red;
+            background-image: url("./images/running-shoes-2048px-5946.webp");
+
+            /* background-size  မှာ  cover and contain  ဆိုပြီးရှိတယ်။ ပုံမှန်က  100px 100p ;  အရင်လာတာက  width  နောက်မှလာတာက  height | cover  က width  ကိုချိန်ပေးတာဖြစ်ပြီး  contain   height  ကိုချိန်ပေးတာ ဖြစ်တယ်။ */
+            /* background-size: cover; */
+            /* background-size: contain; */
+
+            background-size: 300px;
+            /* no-repeat ကပုံတွေအများကြီးပေါ်နေတဲ့အခါ အများကြီးမဖြစ်အောင်လုပ်ရင် သုံးတယ်. */
+            background-repeat: no-repeat;
+
+            /* fixed  browser  မှာ scroll bar  ဆွဲရင် ပါမသွားအောင်သုံးတာ */
+            /* background-attachment: fixed; */
+
+            /* position: center  လုပ်ရင်  attachment : fixed  ဖျောက်ထားပေးဖို့လိုမယ် */
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    </div>
+</body>
+</html>
