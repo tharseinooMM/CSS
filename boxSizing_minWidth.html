@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+            /* boxsizing  လုပ်တာက ကိုယ်သတ်မှတ်ထားတဲ့  size အတိုင်းရချင်လို့ဖြစ်တယ်။  */
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+        }
+
+        .container1{
+            width: 600px;
+            /* height: 200px; */
+            border: 1px solid red;
+            /* box  ထဲမှာ ရေးထားတဲ့စာတွေ  box အပြင်ဘက်မကျော်ချင်ဘူးဆိုရင်  overflow  ကိုသုံးတယ်။ */
+            /* overflow-x  ကဘယ်ဘက်  scroll  တာဖြစ်ပြီး  overflow-y  ကညဘက်ဖြစ်တယ် */
+            /* hidden  က box ကိုကျော်သွားတဲ့စာတွေကို  hide  လိုက်တာဖြစ်တယ်။ */
+             /* overflow: hidden;  */
+
+             /* scroll  ကစာတွေကို  scroll  လုပ်ပြီး ပြပေးတာဖြစ်တယ်။ */
+             overflow: scroll;
+
+             /* min-height ကစာရှိသလောက်ကို  box ကလိုက်ဖြစ်ပေးတယ်။ */
+             /* max-height  က ကိုယ်သတ်မှတ်ပေးထားတဲ့  height  အတိုင်းမှာဘဲရှိနေမှာဖြစ်တယ်။ */
+             /* min-height: 100px; */
+             max-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    </div>
+
+    <div class="container1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa expedita repellat odio dolorum aperiam sunt, fuga nisi nam qui laboriosam quisquam reiciendis quam commodi dolore quas atque quasi est numquam? Consequuntur aut iusto vero voluptatum impedit delectus tenetur laboriosam quaerat tempore earum! Repellendus, numquam iure vitae esse optio totam officiis fugiat eos qui magnam accusantium laborum obcaecati facilis. Minus autem porro at placeat! Beatae accusantium corporis autem quibusdam, corrupti quia magnam molestias sit in iste inventore vero voluptatum necessitatibus eos, magni quo sunt, fuga id. Nesciunt facere quas praesentium odio, qui deserunt adipisci sapiente magnam iste vero odit tempore molestiae quis. Voluptatem repellat, eos nemo ex corporis enim! Molestias, mollitia voluptates ducimus deserunt deleniti, ipsam aspernatur non neque delectus ipsum, aperiam quidem architecto dolores! Eaque harum veniam quo ipsum! Dolore hic incidunt velit ratione quod aspernatur aliquam reiciendis aperiam dicta ullam. Iste totam sed sapiente ex quia. Cumque beatae hic eius excepturi porro ex tempore, molestias rerum atque dicta fuga soluta omnis molestiae temporibus deserunt quasi repellendus minus voluptatum nulla laudantium optio nobis! Assumenda, quisquam hic ducimus magni consequatur quis alias? Omnis sunt est quisquam modi aut adipisci culpa eveniet! Incidunt commodi eligendi non consequuntur error velit obcaecati iusto hic.</p>
+    </div>
+</body>
+</html>
